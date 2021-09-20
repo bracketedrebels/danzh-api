@@ -1,0 +1,13 @@
+{
+  "name": "Danzh API",
+  "description": "Danzh pure GQL API",
+  "repository": "https://github.com/heroku/node-js-getting-started",
+  "keywords": ["node", "express", "heroku", "api", "danzh"],
+  "image": "heroku/nodejs",
+  "env": {
+    "PORT": {
+      "description": "A port to run API service on",
+      "required": true
+    }
+  }
+}
