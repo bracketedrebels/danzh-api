@@ -1,26 +1,30 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
+  "name": "danzh-api",
+  "version": "0.0.0-semantically-released",
   "engines": {
     "node": "14.x"
   },
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
+    "start": "node index.mjs"
   },
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "4.15.2",
+    "express-graphql": "0.12.0",
+    "graphql": "15.6.0",
+    "graphql-tag": "2.12.5"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/bracketedrebels/danzh-api"
   },
   "keywords": [
     "node",
     "heroku",
-    "express"
+    "express",
+    "gql",
+    "graphql",
+    "danzh"
   ],
   "license": "MIT"
 }
