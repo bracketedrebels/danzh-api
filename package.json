@@ -12,7 +12,9 @@
     "express": "4.15.2",
     "express-graphql": "0.12.0",
     "graphql": "15.6.0",
-    "redis": "3.1.2"
+    "rambda": "6.9.0",
+    "ramda": "0.27.1",
+    "redis": "4.0.0-rc.1"
   },
   "repository": {
     "type": "git",
@@ -26,5 +28,8 @@
     "graphql",
     "danzh"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "ts-toolbelt": "9.6.0"
+  }
 }
